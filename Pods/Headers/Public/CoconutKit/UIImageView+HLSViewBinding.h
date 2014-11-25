@@ -1,0 +1,1 @@
+../../../CoconutKit/Tools/Scripts/GeneratedHeaders/UIImageView+HLSViewBinding.h

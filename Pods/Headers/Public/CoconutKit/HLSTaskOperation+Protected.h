@@ -1,0 +1,1 @@
+../../../CoconutKit/Tools/Scripts/GeneratedHeaders/HLSTaskOperation+Protected.h

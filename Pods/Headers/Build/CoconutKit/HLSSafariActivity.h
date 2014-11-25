@@ -1,0 +1,1 @@
+../../../CoconutKit/CoconutKit/Sources/Core/HLSSafariActivity.h

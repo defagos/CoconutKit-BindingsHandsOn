@@ -1,0 +1,1 @@
+../../../CoconutKit/Tools/Scripts/GeneratedHeaders/UITextField+HLSViewBinding.h

@@ -1,0 +1,1 @@
+../../../CoconutKit/CoconutKit/Sources/CoreData/HLSManagedObjectCopying.h

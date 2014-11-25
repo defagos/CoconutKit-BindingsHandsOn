@@ -1,0 +1,1 @@
+/Users/defagos/Development/iPhoneSandbox/BindingsHandsOn/Pods/CoconutKit/CoconutKit/Sources/Bindings/Controls/UIPageControl+HLSViewBinding.h

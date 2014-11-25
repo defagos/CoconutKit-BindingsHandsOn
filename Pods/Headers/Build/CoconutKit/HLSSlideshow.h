@@ -1,0 +1,1 @@
+../../../CoconutKit/CoconutKit/Sources/View/HLSSlideshow.h

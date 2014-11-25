@@ -1,0 +1,1 @@
+../../../CoconutKit/CoconutKit/Sources/ViewControllers/UISplitViewController+HLSExtensions.h

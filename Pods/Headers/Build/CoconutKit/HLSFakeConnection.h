@@ -1,0 +1,1 @@
+../../../CoconutKit/CoconutKit/Sources/Networking/HLSFakeConnection.h

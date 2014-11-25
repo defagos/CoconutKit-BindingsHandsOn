@@ -7,39 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5687FB01D09195CE18FC9386 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D4D577BF611D77A1989CCC /* libPods.a */; };
+		6F01D7831A1CB294003875B3 /* EmployeesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F01D7821A1CB294003875B3 /* EmployeesViewController.m */; };
 		6F04E3C11A1CA53C00C6C08B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F04E3C01A1CA53C00C6C08B /* main.m */; };
 		6F04E3C41A1CA53C00C6C08B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F04E3C31A1CA53C00C6C08B /* AppDelegate.m */; };
-		6F04E3C71A1CA53C00C6C08B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F04E3C61A1CA53C00C6C08B /* ViewController.m */; };
 		6F04E3CA1A1CA53C00C6C08B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F04E3C81A1CA53C00C6C08B /* Main.storyboard */; };
 		6F04E3CC1A1CA53C00C6C08B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F04E3CB1A1CA53C00C6C08B /* Images.xcassets */; };
 		6F04E3CF1A1CA53C00C6C08B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F04E3CD1A1CA53C00C6C08B /* LaunchScreen.xib */; };
-		6F04E3DB1A1CA53D00C6C08B /* BindingsHandsOnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F04E3DA1A1CA53D00C6C08B /* BindingsHandsOnTests.m */; };
+		6F04E3E91A1CA7AE00C6C08B /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F04E3E81A1CA7AE00C6C08B /* Employee.m */; };
+		6F7913C71A24CC5600F71E0F /* EmployeeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7913C61A24CC5600F71E0F /* EmployeeTableViewCell.m */; };
+		6F80E6A91A1CAB8A00172742 /* EmployeeEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F80E6A81A1CAB8A00172742 /* EmployeeEditViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6F04E3D51A1CA53C00C6C08B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6F04E3B31A1CA53C00C6C08B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F04E3BA1A1CA53C00C6C08B;
-			remoteInfo = BindingsHandsOn;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		28EB2F67AA360AD58353E974 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6F01D7811A1CB294003875B3 /* EmployeesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeesViewController.h; sourceTree = "<group>"; };
+		6F01D7821A1CB294003875B3 /* EmployeesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeesViewController.m; sourceTree = "<group>"; };
 		6F04E3BB1A1CA53C00C6C08B /* BindingsHandsOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BindingsHandsOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F04E3BF1A1CA53C00C6C08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F04E3C01A1CA53C00C6C08B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F04E3C21A1CA53C00C6C08B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F04E3C31A1CA53C00C6C08B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6F04E3C51A1CA53C00C6C08B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6F04E3C61A1CA53C00C6C08B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6F04E3C91A1CA53C00C6C08B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F04E3CB1A1CA53C00C6C08B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6F04E3CE1A1CA53C00C6C08B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		6F04E3D41A1CA53C00C6C08B /* BindingsHandsOnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BindingsHandsOnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F04E3D91A1CA53D00C6C08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F04E3DA1A1CA53D00C6C08B /* BindingsHandsOnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BindingsHandsOnTests.m; sourceTree = "<group>"; };
+		6F04E3E71A1CA7AE00C6C08B /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		6F04E3E81A1CA7AE00C6C08B /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		6F7913C51A24CC5600F71E0F /* EmployeeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeTableViewCell.h; sourceTree = "<group>"; };
+		6F7913C61A24CC5600F71E0F /* EmployeeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeTableViewCell.m; sourceTree = "<group>"; };
+		6F80E6A71A1CAB8A00172742 /* EmployeeEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeEditViewController.h; sourceTree = "<group>"; };
+		6F80E6A81A1CAB8A00172742 /* EmployeeEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeEditViewController.m; sourceTree = "<group>"; };
+		AAFD9215A529683C3376AEAB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C1D4D577BF611D77A1989CCC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,13 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6F04E3D11A1CA53C00C6C08B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5687FB01D09195CE18FC9386 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +61,8 @@
 				6F04E3BD1A1CA53C00C6C08B /* BindingsHandsOn */,
 				6F04E3D71A1CA53D00C6C08B /* BindingsHandsOnTests */,
 				6F04E3BC1A1CA53C00C6C08B /* Products */,
+				D0B68EE1C128B683E8998FCF /* Pods */,
+				B93BF4BDD6EBF8C29DFFF9C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				6F04E3BB1A1CA53C00C6C08B /* BindingsHandsOn.app */,
-				6F04E3D41A1CA53C00C6C08B /* BindingsHandsOnTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,12 +79,18 @@
 			children = (
 				6F04E3C21A1CA53C00C6C08B /* AppDelegate.h */,
 				6F04E3C31A1CA53C00C6C08B /* AppDelegate.m */,
-				6F04E3C51A1CA53C00C6C08B /* ViewController.h */,
-				6F04E3C61A1CA53C00C6C08B /* ViewController.m */,
 				6F04E3C81A1CA53C00C6C08B /* Main.storyboard */,
 				6F04E3CB1A1CA53C00C6C08B /* Images.xcassets */,
 				6F04E3CD1A1CA53C00C6C08B /* LaunchScreen.xib */,
 				6F04E3BE1A1CA53C00C6C08B /* Supporting Files */,
+				6F04E3E71A1CA7AE00C6C08B /* Employee.h */,
+				6F04E3E81A1CA7AE00C6C08B /* Employee.m */,
+				6F80E6A71A1CAB8A00172742 /* EmployeeEditViewController.h */,
+				6F80E6A81A1CAB8A00172742 /* EmployeeEditViewController.m */,
+				6F01D7811A1CB294003875B3 /* EmployeesViewController.h */,
+				6F01D7821A1CB294003875B3 /* EmployeesViewController.m */,
+				6F7913C51A24CC5600F71E0F /* EmployeeTableViewCell.h */,
+				6F7913C61A24CC5600F71E0F /* EmployeeTableViewCell.m */,
 			);
 			path = BindingsHandsOn;
 			sourceTree = "<group>";
@@ -119,6 +121,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B93BF4BDD6EBF8C29DFFF9C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1D4D577BF611D77A1989CCC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0B68EE1C128B683E8998FCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28EB2F67AA360AD58353E974 /* Pods.debug.xcconfig */,
+				AAFD9215A529683C3376AEAB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F04E3DE1A1CA53D00C6C08B /* Build configuration list for PBXNativeTarget "BindingsHandsOn" */;
 			buildPhases = (
+				4E51B342A31886FC238D366E /* Check Pods Manifest.lock */,
 				6F04E3B71A1CA53C00C6C08B /* Sources */,
 				6F04E3B81A1CA53C00C6C08B /* Frameworks */,
 				6F04E3B91A1CA53C00C6C08B /* Resources */,
+				3F6B564C991713F80DD35F71 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,24 +159,6 @@
 			productName = BindingsHandsOn;
 			productReference = 6F04E3BB1A1CA53C00C6C08B /* BindingsHandsOn.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6F04E3D31A1CA53C00C6C08B /* BindingsHandsOnTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6F04E3E11A1CA53D00C6C08B /* Build configuration list for PBXNativeTarget "BindingsHandsOnTests" */;
-			buildPhases = (
-				6F04E3D01A1CA53C00C6C08B /* Sources */,
-				6F04E3D11A1CA53C00C6C08B /* Frameworks */,
-				6F04E3D21A1CA53C00C6C08B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6F04E3D61A1CA53C00C6C08B /* PBXTargetDependency */,
-			);
-			name = BindingsHandsOnTests;
-			productName = BindingsHandsOnTests;
-			productReference = 6F04E3D41A1CA53C00C6C08B /* BindingsHandsOnTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -168,10 +171,6 @@
 				TargetAttributes = {
 					6F04E3BA1A1CA53C00C6C08B = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					6F04E3D31A1CA53C00C6C08B = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 6F04E3BA1A1CA53C00C6C08B;
 					};
 				};
 			};
@@ -189,7 +188,6 @@
 			projectRoot = "";
 			targets = (
 				6F04E3BA1A1CA53C00C6C08B /* BindingsHandsOn */,
-				6F04E3D31A1CA53C00C6C08B /* BindingsHandsOnTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,43 +203,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F04E3D21A1CA53C00C6C08B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F6B564C991713F80DD35F71 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		4E51B342A31886FC238D366E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F04E3B71A1CA53C00C6C08B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F04E3C71A1CA53C00C6C08B /* ViewController.m in Sources */,
+				6F04E3E91A1CA7AE00C6C08B /* Employee.m in Sources */,
+				6F7913C71A24CC5600F71E0F /* EmployeeTableViewCell.m in Sources */,
 				6F04E3C41A1CA53C00C6C08B /* AppDelegate.m in Sources */,
 				6F04E3C11A1CA53C00C6C08B /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6F04E3D01A1CA53C00C6C08B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F04E3DB1A1CA53D00C6C08B /* BindingsHandsOnTests.m in Sources */,
+				6F80E6A91A1CAB8A00172742 /* EmployeeEditViewController.m in Sources */,
+				6F01D7831A1CB294003875B3 /* EmployeesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6F04E3D61A1CA53C00C6C08B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6F04E3BA1A1CA53C00C6C08B /* BindingsHandsOn */;
-			targetProxy = 6F04E3D51A1CA53C00C6C08B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6F04E3C81A1CA53C00C6C08B /* Main.storyboard */ = {
@@ -343,6 +354,7 @@
 		};
 		6F04E3DF1A1CA53D00C6C08B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28EB2F67AA360AD58353E974 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BindingsHandsOn/Info.plist;
@@ -353,45 +365,12 @@
 		};
 		6F04E3E01A1CA53D00C6C08B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFD9215A529683C3376AEAB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BindingsHandsOn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		6F04E3E21A1CA53D00C6C08B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BindingsHandsOnTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BindingsHandsOn.app/BindingsHandsOn";
-			};
-			name = Debug;
-		};
-		6F04E3E31A1CA53D00C6C08B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BindingsHandsOnTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BindingsHandsOn.app/BindingsHandsOn";
 			};
 			name = Release;
 		};
@@ -414,14 +393,7 @@
 				6F04E3E01A1CA53D00C6C08B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		6F04E3E11A1CA53D00C6C08B /* Build configuration list for PBXNativeTarget "BindingsHandsOnTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6F04E3E21A1CA53D00C6C08B /* Debug */,
-				6F04E3E31A1CA53D00C6C08B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
