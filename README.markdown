@@ -1,0 +1,1 @@
+The companion project for the [Bindings hands-on](https://github.com/defagos/CoconutKit/wiki/Bindings-hands-on) article.
