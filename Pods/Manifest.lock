@@ -1,6 +1,6 @@
 PODS:
   - CoconutKit (3.0.rc2):
-    - CoconutKit/fno-objc-arc
+    - CoconutKit/fno-objc-arc (= 3.0.rc2)
   - CoconutKit/fno-objc-arc (3.0.rc2)
 
 DEPENDENCIES:
@@ -9,4 +9,4 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   CoconutKit: 9447b22289f84d94fb5151c9152b1afcd7219e57
 
-COCOAPODS: 0.34.4
+COCOAPODS: 0.35.0

@@ -1,1 +1,1 @@
-/Users/defagos/Development/iPhoneSandbox/BindingsHandsOn/Pods/CoconutKit/CoconutKit/Sources/Animation/HLSObjectAnimation.h
+/Users/defagos/Development/repositories/BindingsHandsOn/Pods/CoconutKit/CoconutKit/Sources/Animation/HLSObjectAnimation.h

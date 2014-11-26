@@ -1,1 +1,1 @@
-/Users/defagos/Development/iPhoneSandbox/BindingsHandsOn/Pods/CoconutKit/CoconutKit/Sources/Networking/HLSConnection.h
+/Users/defagos/Development/repositories/BindingsHandsOn/Pods/CoconutKit/CoconutKit/Sources/Networking/HLSConnection.h
