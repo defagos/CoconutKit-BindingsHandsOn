@@ -10,6 +10,22 @@
 
 @implementation EmployeeEditViewController
 
+- (void)boundView:(UIView *)boundView checkDidSucceedWithObject:(id)object
+{
+    boundView.backgroundColor = [UIColor clearColor];
+}
+
+- (void)boundView:(UIView *)boundView checkDidFailWithObject:(id)object error:(NSError *)error
+{
+    boundView.backgroundColor = [[UIColor redColor] colorWithAlphaComponent:0.4f];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
+
 - (IBAction)cancel:(id)sender
 {
     [self dismissViewControllerAnimated:YES completion:nil];
@@ -23,16 +39,6 @@
     
     [self.delegate employeeEditViewController:self didSaveEmployee:self.employee];
     [self dismissViewControllerAnimated:YES completion:nil];
-}
-
-- (void)boundView:(UIView *)boundView checkDidSucceedWithObject:(id)object
-{
-    boundView.backgroundColor = [UIColor clearColor];
-}
-
-- (void)boundView:(UIView *)boundView checkDidFailWithObject:(id)object error:(NSError *)error
-{
-    boundView.backgroundColor = [[UIColor redColor] colorWithAlphaComponent:0.4f];
 }
 
 @end

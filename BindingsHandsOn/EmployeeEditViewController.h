@@ -12,7 +12,7 @@
 
 @protocol EmployeeEditViewControllerDelegate;
 
-@interface EmployeeEditViewController : UIViewController <HLSViewBindingDelegate>
+@interface EmployeeEditViewController : UIViewController <HLSViewBindingDelegate, UITextFieldDelegate>
 
 @property (nonatomic, strong) Employee *employee;
 @property (nonatomic, weak) id<EmployeeEditViewControllerDelegate> delegate;
