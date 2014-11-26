@@ -19,6 +19,13 @@
 
 @implementation EmployeesViewController
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    self.tableView.rowHeight = 44.f;
+}
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     EmployeeEditViewController *employeeEditViewController = segue.destinationViewController;
